@@ -1,0 +1,28 @@
+<html>
+<title>Fraud Detection</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.jumbotron {
+		background-image: url("https://wallpaperaccess.com/full/2593042.jpg");
+		background-size:cover;
+    padding: 90px 25px;
+}
+.container-fluid {
+    padding: 10px 400px;
+}
+</style>
+
+<body>
+<div class="jumbotron text-center">
+    <h1>Fraud detection for e commerce transactions</h1>
+    <div class="container-fluid">
+    <hr>
+<h2><span class="label label-default"> {{ result }} </span></h2>
+<a href="{{ url_for('home') }}" class="btn btn-success">Back</a>
+</div>
+</div>
+
+</body>
+</html>
