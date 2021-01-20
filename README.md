@@ -1,5 +1,7 @@
 # Fraud Detection for e-commerce transactions
 
+![Farmers Market Finder Demo](Images/Fraud Detection.gif)
+
 ### About the Project: <h3>
 This project is about predicting whether an e-commerce transaction is a fraud transaction or not. The dataset can be found [here](https://www.kaggle.com/vbinh002/fraud-ecommerce). There are two datasets, where one dataset contains user information like signup time, purchase time, age sex, purchase value, IP address etc. Other dataset contains the IP address range and the associated country. By mapping the IP address of given transactions with the IP address ranges in second dataset, we can get the country name. 
   
