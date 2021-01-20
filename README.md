@@ -24,7 +24,7 @@ The application was deployed on Heroku. Batch prediction was also implemented. T
 Link to Deployed Application : https://detecting-fraud.herokuapp.com/
 
 <video controls>
-  <source src="Images/Fraud Detection.mp4" type="video/mp4">
+  <source src="/Images/Fraud Detection.mp4" type="video/mp4">
 </video>
 
 ### Installing required librarires: <h3>
