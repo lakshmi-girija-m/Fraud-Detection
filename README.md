@@ -23,9 +23,7 @@ Out of them, XGBoost performed well on one hot encoded data and transformed usin
 The application was deployed on Heroku. Batch prediction was also implemented. The user can input a CSV file with required features. A CSV file along with class for each row can be dowloaded. A user can also opt to input required features using a form. When th user clicks on submit button, it will display if the transaction is a fraud transaction or not a fraud transaction.
 Link to Deployed Application : https://detecting-fraud.herokuapp.com/
 
-<div align="center">
-  ![Demo](Images/Fraud Detection.gif)
-</div>
+![Demo](Images/Fraud Detection.gif)
 
 ### Installing required librarires: <h3>
 * Installing xgboost:
