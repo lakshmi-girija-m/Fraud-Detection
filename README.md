@@ -7,7 +7,7 @@ This project is about predicting whether an e-commerce transaction is a fraud tr
 The features signup time and purchase time were highly correlated with the target variable. A new feature 'time_difference' was created which is the difference of time between sign up time and purchase time. As Device ID and purchase value had low correlation with target variable, they were removed. There were no duplicate records as well. As the data was imbalanced, it was handled using SMOTE. Label encoding and One hot encoding was performed on the dataset. For both label and one hot encoded data, PCA with 6 features and LDA was performed. 
   
 ### Machine Learning: <h3>
-Since this is a classification problem, various classification algorithms were used with some hyperparameter tuning. 
+Since this is a classification problem, various classification algorithms were used with some hyperparameter tuning. The algorithms were trained on 60% data. The perfomance of these algorithms was measured based on the F1 score.
 | Algorithm      | Parameters     | F1 score  |
 | ------------- |:-------------:| -----:|
 | Logistic Regression  | 'class_weight': ["balanced"] | 0.2706 |
